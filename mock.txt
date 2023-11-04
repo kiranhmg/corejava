@@ -1,0 +1,129 @@
+1) java:java is a tool provided by jdk.it is used to interpret program.
+   javac:javac is a compiler it is used to convert source code to bite code.
+
+2)jdk: jdk stands for java development kit.
+        it is used to writeing and executing programs.
+        it contains tools and jre.
+  jre:java run time environment.
+        it is used to executing programs.
+       it contains libraries and jvm.
+  jvm:java virtual machine.
+       it does exist physically,jvm is used for execution of programms.
+3) .java File: it is a source code present in common language.
+
+   .class: it containce byte code ,it is created after compileing source clode.
+
+4) 1.jdk
+   2.jvm
+   3.jre
+
+5) variable: variable is container to store information,it will point to memory location.
+    there are are 2 types of variable:
+     1)class level:
+             in class level there are 2 types:
+              1)static variable  ex:static int num;
+
+              2)non static variable ex: int num;
+     2) methode level:
+                in class level there are 2 types:
+              1)local variable ex:{
+                                     int num;
+
+                                    }
+
+              2)parameterized variable ex:  void name(String name)
+
+7) program will executed but no messages
+
+8)data type:
+              data type represent different size and value stored in variable.
+      there are 2 types in data type:
+              1) primitive  ex:
+                                 int num;
+              2) non primitive   ex:
+                                        Shape shape;
+9)Dot operator:
+               dot operator is used to access properties and methode of class.
+               Ex:Shape.name
+
+10) Features of java:
+     object oriented
+     multi thread
+     plotform independece
+     security
+     robust
+     automatic garbage collection
+     
+11) array:
+             array is a collection of similar data type elements.
+             array is fixed size
+             elements of array can be accessed using index
+             we can create array using new key word:ex: int[] num=new int[];
+                                                    
+            there are 2 types of array:
+               1) single line array
+               2) multidimentional array
+             Ex: int[] num={1,2,3}
+
+12) class: class is a blue print to create object 
+           class is a key word.
+           Ex: class movie{
+
+                     }
+
+    object: object is real world entity,object is a instance of class having states and behaviour
+                   Movie movie=new Movie();
+
+13)  key words:
+          key words are reserved words
+          key words can not be used as variable or method name
+
+          Ex:
+               if,for,while,class,int,return,break,switch,else,double.
+
+14)  constructor:
+                 constructor is a special method
+                 constructor has same name as class name.
+                 it is used to initialize the instance variable
+                 constructor has no return type
+                 There are 2 types of constructor:
+                 1)default constructor
+                 2)parameterized constructor
+
+15)  main method is static because jvm starts its execution from manin method with out creating instance of class
+
+16)   class Example
+         {
+               public static void main(String[] any)
+              {
+                  int[] num={12,3,2,45,6,7,6};
+                  int n=num.length;
+                   System.out.println(n+" length of array present in given list");
+                 }
+           }
+
+17)  method:
+              method is collection of statements that are executed when we invoke the method
+               Ex: void name(String movie)
+                    {
+                       System.out.println("movie is:"+movie);
+                    }
+
+     method overloading: two or method having same name but different number of parameter is called method overloading.
+                           Ex:   void movie(String name)
+                                 {
+                                      System.out.println("name is:"+name);
+                                  }
+                                   void movie(String name,String theater)
+                                 {
+                                      System.out.println("name is:"+name);
+                                      System.out.println("theater is :"+theater);
+
+                                  }
+
+ 
+
+
+     
+
+
