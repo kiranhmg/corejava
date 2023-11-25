@@ -1,0 +1,33 @@
+
+1)
+class Prime
+{
+public static void main(String[] any)
+{
+     int num=10;
+    if(num%2==0)
+    {
+        System.out.println("given number is prime");
+     }
+    else{
+          System.out.println("given number is not prime");
+         }
+}
+}
+
+2)
+
+class Revers
+{
+public static void main(String[] any)
+{
+    String name="kiran";
+   int i=name.length();
+
+while(i>0)  
+{  
+System.out.print(name.charAt(i));       
+i--;         
+}  
+}
+}
